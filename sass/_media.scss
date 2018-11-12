@@ -1,0 +1,167 @@
+/* 
+Default
+*/
+
+@media (min-width: 1px) {
+
+  td { font-size: 0.7em; }
+  th { font-size: 0.5em; }
+
+  th:nth-child(1),
+  td:nth-child(1){
+    width: 4%;
+    text-align: left;
+  }
+
+  th:nth-child(2),
+  td:nth-child(2){
+    width: 15%;
+    text-align: center;
+  }
+
+  th:nth-child(3),
+  td:nth-child(3){
+    width: 10%;
+    text-align: center;
+  }
+
+  th:nth-child(4),
+  td:nth-child(4){
+    width: 12%;
+    text-align: center;
+  }
+
+  td:nth-child(5){
+    width: 47%;
+  }
+
+  td:nth-child(6){
+    width: 4%;
+    text-align: center;
+  }
+
+  td:nth-child(7){
+    width: 4%;
+    text-align: center;
+  }
+
+  td:nth-child(8){
+    width: 4%;
+    text-align: center;
+  }
+
+  th:nth-child(5){
+    width: 59%;
+  }
+
+  #vlog-count,
+  #title{ font-size: 1.2em; }
+
+  .stat_button{ font-size: 0.75em; }
+
+  text.text {
+    font-size: 0.65em;
+  }
+
+  .fa-download {
+    display: none
+  }
+
+}
+
+/* 
+Larger than mobile 
+*/
+
+@media (min-width: 600px) {
+
+  th, td { font-size: 1em; }
+
+  th:nth-child(1),
+  td:nth-child(1){
+    width: 3%;
+  }
+
+  th:nth-child(2),
+  td:nth-child(2){
+    width: 7%;
+  }
+
+  th:nth-child(3),
+  td:nth-child(3){
+    width: 7%;
+  }
+
+  th:nth-child(4),
+  td:nth-child(4){
+    width: 7%;
+  }
+
+  td:nth-child(5){
+    width: 64%;
+  }
+
+  td:nth-child(6){
+    width: 4%;
+  }
+
+  td:nth-child(7){
+    width: 4%;
+  }
+
+  td:nth-child(8){
+    width: 4%;
+  }
+
+  th:nth-child(5){
+    width: 76%;
+  }
+
+  #vlog-count,
+  #title{ 
+    font-size: 1.8em;
+  }
+
+  .stat_button{ font-size: 1em; }
+
+  text.text {
+    font-size: 0.75em;
+  }
+
+  .fa-download {
+    display: inline-block
+  }
+
+  .toggle-td {
+    font-size: 1.2em;
+    text-align: center !important;
+    padding: 7px 0 !important;
+  }
+
+  #about-text {
+    font-size: 1.15em;
+    width: 450px;
+    height: 450px;
+    margin: -225px 0 0 -225px;
+  }
+
+  #about .fa-close {
+    font-size: 2em;
+    margin: -220px 0 0 193px;
+  }
+
+  #about-text h1 {
+    margin: 12px;
+  }
+
+  .axis text {
+    font-size: 0.85em;
+  }
+
+  // #about-text .fa {
+  //   color: indianred;
+  // }
+
+}
+
+
