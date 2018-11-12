@@ -1,6 +1,6 @@
 function loadData() {
   // var url = "https://dl.dropboxusercontent.com/u/106304615/data.json";
-  var url = '../data/data.json'
+  var url = 'data/data.json'
   d3.json(url, function(error, json) {
     if (error) return console.warn(error)
     data = json
